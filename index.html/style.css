@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+
+  height: 100%;
+  width: 100%;
+
+}
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(237, 228, 100);
+
+
+}
+#card{
+  height: 700px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+
+ 
+}
+#card img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+  border-radius:46% 54% 70% 30% / 30% 32% 68% 70% 
+
+}
+h1{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(42, 40, 40);
+}
+#card h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(186, 102, 50);
+}
+
+#card button{
+padding: 10px 20px;
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+border-radius: 40px;
+border: none;
+background-color: rgb(250, 77, 210);
+cursor: pointer;
+
+
+}
+#card #remove{
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(241, 10, 10, 0.539);
+}
+#card #remove:hover{
+  color: red;
+  
+}
+#card #add:hover{
+  background-color: rgb(238, 31, 190);
+  color: rgba(0, 0, 0, 0.811);
+}
+#card h5{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(30, 210, 93);
+}
+
+.containt{
+
+  background-color: black;
+  height: 10%;
+  color: #fff;
+  margin-top: 50%;
+  padding: 10%;
+  text-align: center;
+  justify-content: center;
+  color: rgba(255, 153, 0, 0.734);
+
+}
+/*hy is class name of social-icon*/
+.hy{
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+  padding:3%;
+  color: rgba(169, 207, 241, 0.721);
+  text-align: center;
+  font-size: 30px;
+justify-content: space-around;
+transition: 0.3s;
+}
+.hy:hover{
+  color: white;
+  font-size: 31px;
+
+}
+.fever{
+  color: rgba(255, 255, 255, 0.416);
+  margin-top: 30px;
+}
+
